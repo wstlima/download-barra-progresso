@@ -199,7 +199,7 @@ public class MainActivity extends AppCompatActivity {
             mprogressDialog.setIndeterminate(true);
             mprogressDialog.setMax(100);
             mprogressDialog.setProgress(values[0]);
-            mprogressDialog.setMessage("File Size: " + new DecimalFormat("##.##").format(file_size / 1000000) + " MB");
+            mprogressDialog.setMessage("Tamanho: " + new DecimalFormat("##.##").format(file_size / 1000000) + " MB");
         }
 
         @Override
